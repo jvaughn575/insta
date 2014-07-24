@@ -8,7 +8,7 @@ var access_token = "";
 
   window.fbAsyncInit = function() {
   FB.init({
-    appId      : '343763025748711',
+    appId      : '1658211397736467',
     cookie     : true,  // enable cookies to allow the server to access 
                         // the session
     xfbml      : true,  // parse social plugins on this page
@@ -74,7 +74,7 @@ function postToPHP(){
 	// when we've sent it, pop up some messages
 	console.log("Image sent to PHP... PHP responsed with : "+data);
 	console.log("PHP upload responded: "+data);
-	postToFB(data);
+	//postToFB(data);
     });
 }
 

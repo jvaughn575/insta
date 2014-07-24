@@ -57,8 +57,11 @@ function getProcessingSketchId () { return 'instaspameditoronly'; }
 
 	</head>
 	<body onload = "setupFileListener()">
+    <script src="jquery.js"></script>
     <script src="insta.js"></script>
     <input type = "file" name = "file" id = "file" />
+        <div id="fb-root"></div>
+     
 		<div id="content">
 			<div>
 				<canvas id="instaspameditoronly" data-processing-sources="instaspam_editor_only.pde" 

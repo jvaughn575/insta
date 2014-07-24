@@ -221,6 +221,7 @@ void mouseReleased()
         // hude the GUI, then post... see the draw method
         post = true;
         displayGUI = false;
+        postToPHP();  //James
       }
       if (fileButton.mouseReleased())
       {
